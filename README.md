@@ -49,7 +49,7 @@ Add this on the Top under `*filter`
 Go down between the 2 commands add this:
 
 ```
-# START RATE LIMIT SETTUNGS
+# START RATE LIMIT SETTINGS
 
 -A ufw-before-input -p tcp --dport 80   -j ufw-http
 -A ufw-before-input -p tcp --dport 443  -j ufw-http
