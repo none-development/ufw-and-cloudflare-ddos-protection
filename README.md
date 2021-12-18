@@ -34,7 +34,7 @@ After install go to the UFW Config. You can use any text editor in this example 
 sudo nano /etc/ufw/before.rules
 ```
 
-To create a Rate Limit on Port 80 and 443
+To create a Rate Limit on Port **80** and **443**
 
 Add this on the Top under `*filter`
 ```
@@ -99,6 +99,7 @@ Now Start UFW
 ```
 ufw enable
 ```
+----
 
 # Cloudflare Settings
 
